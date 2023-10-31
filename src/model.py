@@ -26,7 +26,7 @@ class VGG16:
         self.model.trainable = False
         self.classes = {y: x for x, y in json.load(open(CLASSES_DIR)).items()}
         
-        self.extract_model = Model(inputs=self.model.input, outputs=self.model.get_layer("dense_12").output)
+        self.extract_model = Model(inputs=self.model.input, outputs=self.model.layers[-5].output)
         
     def predict(self, image):
         
