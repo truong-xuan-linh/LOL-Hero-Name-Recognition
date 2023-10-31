@@ -28,7 +28,7 @@
   
   pip install -r requirements.txt
   
-  python run.py --image_folder ./images \ # folder containing test data
-                  --save_folder ./storage # folder contain output data
+  python run.py --image_folder ./images --save_folder ./storage
   ```
-    
+  
+Replace ./images and ./storage to match your device 
