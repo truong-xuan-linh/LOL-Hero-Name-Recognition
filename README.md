@@ -29,6 +29,7 @@
   pip install -r requirements.txt
   
   python run.py --image_folder ./images --save_folder ./storage
+
+  # Replace ./images and ./storage to match your device 
   ```
   
-Replace ./images and ./storage to match your device 
